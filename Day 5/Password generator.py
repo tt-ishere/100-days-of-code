@@ -48,4 +48,3 @@ for i in range(0, num_numbers):
 #randomizing password list so that it is in no order
 random.shuffle(password)
 print(*password, sep="")
-    

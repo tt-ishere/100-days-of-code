@@ -1,7 +1,4 @@
 #Don't change the code above
-from calendar import c
-from this import d
-
 
 a = input('a: ')
 b = input('b: ')
