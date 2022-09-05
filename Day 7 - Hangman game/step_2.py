@@ -22,6 +22,7 @@ guess = input("Guess a letter in the chosen word: ").lower()
 #If letter at a position matches "guess", then reveal the letter
 #at that position in display list
 
+#Check guessed letter
 for position in range(word_lenght):
     if chosen_word[position] == guess:
         display[position] = guess
