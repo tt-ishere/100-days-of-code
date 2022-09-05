@@ -1,2 +1,2 @@
 # 100-days-of-code
- My python journey from dau 1 - 100
+ My python journey from day 1 - 100
