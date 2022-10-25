@@ -19,6 +19,7 @@ def clockwise():
 
 def clear():
     tt.reset()
+    
 sc.onkey(key="f", fun=forward)
 sc.onkey(key="s", fun=backward)
 sc.onkey(key="a", fun=anticlockwise)

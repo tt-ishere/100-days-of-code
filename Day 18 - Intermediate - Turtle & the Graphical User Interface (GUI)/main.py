@@ -3,8 +3,7 @@ import random
 
 tt = Turtle()
 tt.shape("arrow")
-tt.color("violet")
-
+colours =["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "Wheat", "SlateGray", "SeaGreen", "Violet", "Red", "Green", "Yellow"]
 # # TODO 1 Draw a square 
 # for i in range(0,4):
 #     tt.forward(100)
@@ -17,7 +16,7 @@ tt.color("violet")
 #     tt.pendown()
 #     tt.forward(10)
 
-# TODO 3 Draw multiple shapes
+# # TODO 3 Draw multiple shapes
 
 # def angle(sides):
 #     return 360.0 / sides
@@ -25,28 +24,28 @@ tt.color("violet")
 # sides = 3.0
 # while sides != 10.0: 
 #     for _ in range(int(sides)):
+#         tt.color(random.choice(colours))
 #         tt.forward(100)
 #         tt.right(angle(sides))
 #     sides += 1.0
 
 # TODO 4 Random walk
 
-direction = [tt.backward,tt.forward, tt.left, tt.right]
-# path = random.choice(direction)
-# print(path)
+direction = [0,90, 180, 270]
 
 def move(distance):
     start = 0
-    fin = 500
+    fin = 200
     while start != fin:
-        path = random.choice(direction)
-        path(distance)
+        tt.speed("fast")
+        tt.color(random.choice(colours))
         tt.width(1)
-        tt.resizemode('auto')
+        tt.forward(distance)
+        tt.setheading(random.choice(direction))
         start += 1
     
         
 
-move(90)
+move(30)
 screen = Screen()
 screen.exitonclick()
