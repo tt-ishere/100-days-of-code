@@ -5,11 +5,12 @@ COLORS = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'black']
 MOVE_DISTANCE = 5
 car = []
 
-class CarManager():
+
+class CarManager:
     def __init__(self):
         self.all_cars = []
         self.speed = MOVE_DISTANCE
-    
+
     def create_car(self):
         random_chance = random.randint(1, 6)
         if random_chance == 1:
@@ -24,6 +25,6 @@ class CarManager():
     def move(self):
         for car in self.all_cars:
             car.backward(self.speed)
-    
+
     def level_up(self):
-        self.speed += MOVE_DISTANCE 
+        self.speed += MOVE_DISTANCE
