@@ -2,21 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e9af46b-806d-46ef-a9d6-3a140037eedf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day 23 - Intermediate - The Turtle Crossing Capstone Project/car_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 23 - Intermediate - The Turtle Crossing Capstone Project/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 23 - Intermediate - The Turtle Crossing Capstone Project/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 23 - Intermediate - The Turtle Crossing Capstone Project/scoreboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/100 days of code.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 12 Beginner - Scope _ Number Guessing Game/Guess the number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 12 Beginner - Scope _ Number Guessing Game/Guess the number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 19 - Intermediate - Instances, State and Higher Order Functions/turtle race.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 19 - Intermediate - Instances, State and Higher Order Functions/turtle race.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game part 1/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 20 - Snake Game part 1/food.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game part 1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 20 - Snake Game part 1/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game part 1/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 20 - Snake Game part 1/snake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/100 days of code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 20  &amp; 21- Snake Game part 1 &amp; 2/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 24 - Intermediate - Files, Directories and Paths/Mail merge project/Input/Letters/starting_letter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 24 - Intermediate - Files, Directories and Paths/Mail merge project/Input/Names/invited_names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 24 - Intermediate - Files, Directories and Paths/Mail merge project/Output/ReadyToSend/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 24 - Intermediate - Files, Directories and Paths/Mail merge project/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 24 - Intermediate - Files, Directories and Paths/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 24 - Intermediate - Files, Directories and Paths/new_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/.idea/Day 25 - Intermediate - Working with CSV Data and the Pandas Library.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/weather_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game part 1/food.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game part 1/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game part 1/scoreboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game part 1/snake.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 23 - Intermediate - The Turtle Crossing Capstone Project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 23 - Intermediate - The Turtle Crossing Capstone Project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 23 - Intermediate - The Turtle Crossing Capstone Project/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 23 - Intermediate - The Turtle Crossing Capstone Project/scoreboard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,91 +52,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.main (4)">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100 days of code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 15 - Coffee Machine" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 15 - Coffee Machine/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100 days of code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 17 - Intermediate - The Quiz Project &amp; the Benefits of OOP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 17 - Intermediate - The Quiz Project &amp; the Benefits of OOP/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100 days of code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 18 - Intermediate - Turtle &amp; the Graphical User Interface (GUI)/Hurst painting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 18 - Intermediate - Turtle &amp; the Graphical User Interface (GUI)/Hurst painting/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100 days of code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 20 - Snake Game part 1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 20 - Snake Game part 1/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100 days of code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,11 +61,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 14 - Higher Lower" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 24 - Intermediate - Files, Directories and Paths" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 14 - Higher Lower/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 24 - Intermediate - Files, Directories and Paths/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (4)" />
-        <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main (2)" />
       </list>
     </recent_temporary>
   </component>
