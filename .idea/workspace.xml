@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e9af46b-806d-46ef-a9d6-3a140037eedf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/100 days of code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 20  &amp; 21- Snake Game part 1 &amp; 2/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 24 - Intermediate - Files, Directories and Paths/Mail merge project/Input/Letters/starting_letter.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 24 - Intermediate - Files, Directories and Paths/Mail merge project/Input/Names/invited_names.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 24 - Intermediate - Files, Directories and Paths/Mail merge project/Output/ReadyToSend/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 24 - Intermediate - Files, Directories and Paths/Mail merge project/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 24 - Intermediate - Files, Directories and Paths/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 24 - Intermediate - Files, Directories and Paths/new_file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/.idea/Day 25 - Intermediate - Working with CSV Data and the Pandas Library.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/weather_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game part 1/food.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game part 1/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game part 1/scoreboard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 20 - Snake Game part 1/snake.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 23 - Intermediate - The Turtle Crossing Capstone Project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 23 - Intermediate - The Turtle Crossing Capstone Project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 23 - Intermediate - The Turtle Crossing Capstone Project/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 23 - Intermediate - The Turtle Crossing Capstone Project/scoreboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 25 - Intermediate - Working with CSV Data and the Pandas Library/us-states-game-start/states_to_learn.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 26 - Intermediate - List Comprehension and the NATO Alphabet/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
