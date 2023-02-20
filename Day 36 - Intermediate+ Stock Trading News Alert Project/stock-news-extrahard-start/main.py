@@ -5,12 +5,12 @@ from twilio.rest import Client
 
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
-STOCK_API_KEY = "K1BLUVDZ755LHSWQ"
-NEWS_API_KEY = "5529be8532f448c091902fc3cd3465eb"
+STOCK_API_KEY = "your_stock_api_key"
+NEWS_API_KEY = "your_news_api_key"
 stock_url = "https://www.alphavantage.co/query"
 news_url = "https://newsapi.org/v2/everything"
-account_sid = "AC32bfbbb6f5c1a52b3e4b2e422e6092a1"
-auth_token = "a034f796bf57d81e218a02c2f3013d3a"
+account_sid = "your_account_sid"
+auth_token = "your_auth_token"
 stock_param = {
     "function": "TIME_SERIES_DAILY_ADJUSTED",
     "symbol": STOCK,
@@ -68,7 +68,7 @@ if diff_percentage > 1:
         client = Client(account_sid, auth_token)
         message = client.messages.create(
             body=msg_body,
-            from_="+17407167716",
-            to="+233268125555",
+            from_="your_from_contact",
+            to="your_to_contact",
         )
         print(message.status)
