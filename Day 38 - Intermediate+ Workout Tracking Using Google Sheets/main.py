@@ -1,5 +1,11 @@
 import requests
 import datetime
+import os
+from dotenv import find_dotenv, load_dotenv
+
+dotenv_path = find_dotenv()
+load_dotenv(dotenv_path)
+
 
 QUERY_TEXT = input("Tell me which exercises you did: ")
 GENDER = "male"
@@ -7,8 +13,8 @@ WEIGHT_KG = 69.0
 HEIGHT_CM = 190.00
 AGE = 25
 
-APP_ID = "99feeb44"
-APP_KEY = "984ca7f3c651f24bef002690d6923d28"
+APP_ID = os.getenv("APP_ID")
+APP_KEY = os.getenv("APP_KEY")
 
 EXCERCISE_ENDPOINT = " https://trackapi.nutritionix.com/v2/natural/exercise"
 SHEETY_ENDPOINT = (
@@ -31,14 +37,14 @@ PARAMS = {
 response = requests.post(url=EXCERCISE_ENDPOINT, json=PARAMS, headers=HEADERS)
 response.raise_for_status()
 result = response.json()
-print(result)
 
-
+# formating date and time with strftime()
 date = datetime.datetime.now()
 today_date = f"{date.strftime('%x')}"
 time = f"{date.strftime('%X')}"
 
-sheety_header = {"Content-Type": "application/json"}
+sheety_auth = os.getenv("sheety_auth")
+sheety_header = {"Content-Type": "application/json", "Authorization": sheety_auth}
 
 for exercise in result["exercises"]:
     sheet_inputs = {
