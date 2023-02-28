@@ -16,6 +16,9 @@ class FlightData:
         destination_airport,
         flight_date,
         return_flight_date,
+        deep_link,
+        stop_overs=0,
+        via_city="",
     ):
         self.price = price
         self.origin_city = origin_city
@@ -24,3 +27,6 @@ class FlightData:
         self.destination_airpot = destination_airport
         self.flight_date = flight_date
         self.return_flight_date = return_flight_date
+        self.deep_link = deep_link
+        self.stop_overs = stop_overs
+        self.via_city = via_city

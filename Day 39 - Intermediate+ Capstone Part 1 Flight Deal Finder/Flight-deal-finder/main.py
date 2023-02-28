@@ -3,6 +3,7 @@ from data_manager import DataManager
 from flight_search import FlightSearch
 from notification_manager import NotificationManager
 
+
 data_manager = DataManager()
 sheet_data = data_manager.get_destination_data()
 
@@ -21,10 +22,17 @@ if sheet_data[0]["iataCode"] == "":
 origin_city = "LON"
 for destination in sheet_data:
     flight_data = flight_search.check_flights(origin_city, destination["iataCode"])
-    try:
-        if destination["lowestPrice"] > flight_data.price:
-            notification_manager = NotificationManager()
-            sms = f"Low price alert! Only {flight_data.price} to fly from {flight_data.origin_city}-{flight_data.origin_airport} to {flight_data.destination_city}-{flight_data.destination_airpot}, from {flight_data.flight_date} to {flight_data.return_flight_date}"
-            notification_manager.send_sms(sms)
-    except AttributeError:
-        None
+    if flight_data is None:
+        continue
+    # check for cheap flight deal
+    if destination["lowestPrice"] > flight_data.price:
+        notification_manager = NotificationManager()
+        message = f"Low price alert! Only {flight_data.price} to fly from {flight_data.origin_city}-{flight_data.origin_airport} to {flight_data.destination_city}-{flight_data.destination_airpot}, from {flight_data.flight_date} to {flight_data.return_flight_date}"
+        # check for stop overs
+        if flight_data.stop_overs > 0:
+            message += f"\nFlight has {flight_data.stop_overs} stop over, via {flight_data.via_city}."
+
+        # send emails
+        user_data = data_manager.get_user_data()
+        emails = [row["email"] for row in user_data]
+        notification_manager.send_email(message, emails, flight_data.deep_link)
