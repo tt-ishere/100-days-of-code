@@ -13,6 +13,7 @@ SHEETY_ENDPOINT_USERS = (
 class DataManager:
     def __init__(self):
         self.destination_data = {}
+        self.user_data = ""
 
     def get_destination_data(self):
         response = requests.get(SHEETY_ENDPOINT_PRICES)
