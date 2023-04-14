@@ -29,5 +29,5 @@ highest_article_votes = max(article_votes)
 index_of_highest_article_votes = article_votes.index(highest_article_votes)
 
 print(
-    f"The story with the highest votes;\nTittle: {article_texts[index_of_highest_article_votes]}\nLink: {article_links[index_of_highest_article_votes]}"
+    f"The story with the highest votes;\n\nTittle: {article_texts[index_of_highest_article_votes]}\nLink: {article_links[index_of_highest_article_votes]}"
 )
