@@ -17,7 +17,7 @@ scope = "playlist-modify-public"
 
 # Get user input for travel date and construct URL for Billboard chart
 travel_date = input(
-    "What date in musical history would you like to visit? NB: Date should be in YYYY-MM-DD format : ")
+    "What date in musical history would you like to visit? NB: Date should be in YYYY-MM-DD format: ")
 url = f"https://www.billboard.com/charts/hot-100/{travel_date}"
 
 # Send a GET request to the Billboard URL and retrieve the billboard_100 content
